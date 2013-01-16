@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'CopseRegular';
+    src: url('fonts/copse/Copse-Regular-webfont.eot');
+    src: url('fonts/copse/Copse-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/copse/Copse-Regular-webfont.woff') format('woff'),
+         url('fonts/copse/Copse-Regular-webfont.ttf') format('truetype'),
+         url('fonts/copse/Copse-Regular-webfont.svg#CopseRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	font: 12px/20px 'CopseRegular', CopseRegular, Helvetica, Arial, sans-serif;
+	background:url(images/backgrounds/noise.png) repeat scroll 0px 0px;
+	color:#818181;
+}
+#comingsoon:before{content: "Coming Soon!";
+  
+}
+#comingsoon:hover:before {content:"A precious gift to a precious person!"}
+#comingsoon:hover {
+color: #4169E1; /* Using blue here */
+text-decoration: none; /* eliminates underline */
+-webkit-transition: all 1s ease-out; -moz-transition: all 1s ease-out; -o-transition: all 1s ease-out; 
+  
+} 
+
+.snowflake {
+
+position: fixed;
+color: #FFFFFF;
+
+} 
+#copyright {
+  	position:absolute;
+	font-size:15px;
+	align:center;
+	left:auto;
+	right:auto;
+	bottom:1%;
+	text-align:center;
+	width: 99%;
+
+}
+
+#comingsoon{
+  	font-family: 'CopseRegular', CopseRegular, Helvetica, Arial, sans-serif;
+	font-size:55px;
+	position:absolute;
+	left:auto;
+	right:auto;
+	align:center;
+	text-align:center;
+	width: 99%;
+	font-weight:bold;
+	text-shadow: 1px 1px 0px #e1e1e1;
+	top:15%;
+
+text-decoration: none; /* eliminates underline */
+-webkit-transition: all 1s ease-out; -moz-transition: all 1s ease-out; -o-transition: all 1s ease-out; 
+  
+}
+#name{
+  	font-family: 'CopseRegular', CopseRegular, Helvetica, Arial, sans-serif;
+	font-size:20px;
+	position:absolute;
+	left: auto;
+	right: auto;
+	text-align:center;
+	width: 99%;
+	text-shadow: 1px 1px 0px #e1e1e1;
+	top:25%;
+}
+
+
+	  
+#quote_wrap { 
+	background: #D3D3D3 url(images/quotation-marks.png) no-repeat 10px 10px;
+	background-size:auto auto;
+	opacity:0.8;
+	position:absolute;
+	align:center;
+	top:45%;
+	margin-left: 15%;
+	width: 60%;
+	text-align:center;
+	font-family: 'CopseRegular', CopseRegular, Helvetica, Arial, sans-serif;
+  	font-size:20px;
+	font-style:italic;
+	text-shadow: 1px 1px 0px #e1e1e1;
+	padding-left: 6%;
+	padding-top:2%;
+	padding-bottom:4%;
+	padding-right:1%;
+	line-height:30px;
+}
+
+
+h2 {
+	font-family: 'CopseRegular', CopseRegular, Helvetica, Arial, sans-serif;
+	font-size:28px;
+	text-align:center;
+	height:29px;
+	line-height:32px;
+	font-weight:normal;
+	text-shadow: 1px 1px 0px #e1e1e1;
+	position:relative;
+}
+
+h3 {
+	font-family:Georgia;
+	font-size:18px;
+	font-style:italic;
+	text-align:center;
+	height:29px;
+	line-height:38px;
+	font-weight:normal;
+	color:#a5a5a5;
+}
+
+h4 {
+	font-family:Georgia;
+	font-size:14px;
+	font-style:italic;
+	text-align:center;
+	height:29px;
+	line-height:38px;
+	font-weight:normal;
+	color:#a5a5a5;
+}  
+blockquote {
+    	font-family: 'CopseRegular', CopseRegular, Helvetica, Arial, sans-serif;
+	width: 100%; /* required */
+	margin: 0 auto;
+	}
+
+blockquote p { margin-bottom: 10px; font-style: italic; }
+blockquote cite { font-style: normal; display: block; text-align: right; text-transform: uppercase; font-size: 10px; font-weight: bold; letter-spacing: 1px; font-family: Arial, Helvetica, sans-serif; }
