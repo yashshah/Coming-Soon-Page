@@ -1,4 +1,4 @@
-Elegant Coming Soon Page
+Coming Soon Page
 ==================
 
 Simple. Elegant. Robust.
