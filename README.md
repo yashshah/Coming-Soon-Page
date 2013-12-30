@@ -1,4 +1,4 @@
-Comingsoon-webpage
+Elegant Coming Soon Page
 ==================
 
-This is basic Coming Soon page. I developed this to gift the domain to my special friend :)
+Simple. Elegant. Robust.
